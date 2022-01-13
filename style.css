@@ -1,0 +1,84 @@
+/**font style**/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
+
+/**common css**/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+.container{
+    width:1200px;
+    margin: auto;
+    
+}
+
+
+
+
+
+/**-----------header area-----------***/
+.header-area{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.header-area .logo-area{
+    display: flex;
+    align-items: center;
+    
+}
+.logo-area h1{
+    background-color: #458FF6;
+    color: aliceblue;
+    font-size: 30px;
+    padding: 10px 15px;
+    border-radius:50%;
+}
+
+.logo-area h2{
+    color:#233348;
+    margin-left: 20px;
+}
+.nav-area a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    color: #ABA7B2;
+}
+.health-care{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.health-text h1{
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.health-text p{
+  
+    font-size: 16px;
+    color: #7D7987;
+    margin: 10px 0;
+   
+}
+.health-text .btn{
+background-color:#458FF6;
+border: none;
+padding: 10px 20px;
+border-radius: 20px;
+color: aliceblue;
+margin-top: 20px;
+}
+.health-img img{
+    width: 600px;
+    height: 500px;
+}
+
+
